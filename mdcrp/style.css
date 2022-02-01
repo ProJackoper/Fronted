@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  color: white;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body,
+html {
+  margin: 0;
+  background-color: #212121;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ff00fa;
+  border-bottom: solid 2px #ff00fa;
+}
+
+#main {
+  background-image: url("./assets/img/background.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: #ff00fa 5px solid;
+}
+
+#logo {
+  width: 20vw;
+  margin-top: 20vh;
+  animation: size;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.logo_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+#header-right {
+  display: flex;
+  margin-right: 10px;
+}
+
+#header-left {
+  margin-right: 10vw;
+}
+
+.header-part {
+  font-size: 3vh;
+  margin: 0 40px;
+  font-weight: 600;
+
+  padding: 0px 0;
+}
+
+#text {
+  font-size: 200%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 4vh;
+  margin-bottom: 3%;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+#reg {
+  margin: 0% 0 0 5%;
+}
+
+.main {
+  width: 99.5vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: #ff00fa 5px solid;
+  background-image: url("./assets/img/connect.png");
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: #ff00fa 5px solid;
+}
+
+.presentation_part {
+  display: flex;
+  flex-direction: row;
+  margin: 10vh 10vw;
+  background-color: #313131;
+  height: 50vh;
+  width: 80vw;
+  box-shadow: 0 15px 29px rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+
+.presentation_part2 {
+  flex-direction: row-reverse;
+}
+
+.presentation_img {
+  width: auto;
+  height: 100%;
+}
+
+.presentation_box {
+  padding: 25px 30px;
+}
+
+.presentation_box p {
+  line-height: 27px;
+  font-size: 17px;
+}
+
+.reg1 {
+  list-style-type: none;
+  padding: 3% 0 3% 3%;
+  margin-right: 10%;
+  border-bottom: #ff00fa 2px solid;
+}
+
+.reg2 {
+  list-style-type: upper-roman;
+  margin: 1%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+#rangi {
+  margin: 5vh 5vw 0 5vw;
+}
+
+.donate_title {
+  margin: 0 0 3vh 3vw;
+}
+
+#donate_buttom {
+  margin: 15vh 0 10vh;
+  font-size: 7vh;
+  background-color: #111222;
+  padding: 2vh 2vw;
+  border-radius: 4%;
+}
+
+.pod {
+  height: 50vh;
+  width: 30vw;
+  background-color: #454545;
+  margin-top: 20vh;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+
+#podania {
+  padding-bottom: 20vh;
+}
+
+.pod_header {
+  text-align: center;
+  background-color: #282828;
+  width: 100%;
+}
+
+.pod_button {
+  text-align: center;
+  padding: 3vh 3vw;
+  background-color: black;
+  font-size: 4rem;
+}
+
+.pod_end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@keyframes size {
+  0% {
+    width: 25%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .presentation_part {
+    height: 20vh;
+    width: 94vw;
+    margin: 3vh 3vw;
+  }
+
+  #logo {
+    margin-top: 30vh;
+  }
+
+  .header-part {
+    margin: 0 10px;
+    font-weight: 600;
+    padding: 0px 0;
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 15px;
+    margin-bottom: 0%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .pod {
+    font-size: 2px;
+    width: 40vw;
+    height: 40vh;
+  }
+  #donate_1 {
+    margin-top: 100.5vh;
+  }
+
+  #donate_2 {}
+}
