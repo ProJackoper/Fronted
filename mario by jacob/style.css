@@ -1,0 +1,49 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}
+
+.block {
+    width: 13px;
+    height: 13px;
+    background: white;
+    border-radius: 100%;
+}
+
+.player {
+    background-color: greenyellow;
+}
+
+.land {
+    background-color: white;
+}
+
+.no-land {
+    background-color: black;
+}
+
+.ground {
+    background-color: brown;
+}
