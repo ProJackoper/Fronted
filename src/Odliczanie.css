@@ -1,0 +1,89 @@
+#button1 {
+    border: #4CAF50 3px solid;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    margin: 10px;
+    width: 20%;
+}
+
+#button2{
+    border: #f44336 3px solid;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    margin: 10px;
+    width: 20%;
+}
+
+
+#button1:hover{
+    background-color: #308b33;
+}
+
+#button2:hover{
+    background-color: #ba2319;
+}
+
+.EdycjaLekcjiInput-grupa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.EdycjaLekcji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input[type=text]{
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+
+input[type=tel]{
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+
+input[type=text]:focus{
+    border: 2px solid #308b33;
+}
+input[type=tel]:focus{
+    border: 2px solid #308b33;
+}
+
+.iks{
+    cursor: pointer;
+}
+
+.odliczanie:hover .iks{
+    display: block;
+}
+
+.edycja{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.operacje{
+    float: right;
+    display: none;
+    font-size: 1.7em;
+}
+
+.odlicznie:hover .operacje{
+    display: block;
+}
